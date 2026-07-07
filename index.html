@@ -1,186 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Football World</title>
-    <style>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}        
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-body{
-   
-    background:linear-gradient(to bottom,#397499,#724e9f);
-    color:rgb(27, 191, 186);
-    overflow-x:hidden;
-}
-
-header{
-    text-align:center;
-    padding:60px 20px;
-
-}
-
-header h1{
-    font-size:55px;
-    animation:fadeDown 1.2s ease;
-
-}
-
-header p{
-    margin-top:15px;
-    font-size:20px;
-    color:#004196;
-    animation:fadeUp 1.5s ease;
-
-}
-
-.btn{
-    display:inline-block;
-    margin-top: 25px;
-    padding:14px 30px;
-    background:#94a820;
-    color:#24881b;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
-    transition:.3s;
-
-}
-
-.btn:hover{
-    transform:scale(1.08);
-    background: #ffd700;
-
-}
-
-.ball{
-    font-size: 70px;
-    text-align: center;
-}
-
-section{
-    padding: 60px 20px;
-
-}
-
-.cards{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card{
-    width:280px;
-    background:rgb(36, 143, 145);
-    backdrop-filter:blur(6px);
-    border-radius: 18px;
-    padding:25px;
-    transition:.4s;
-
-
-}
-.card:hover{
-    transform:translateY(-10px);
-    background: rgba(48, 78, 209, 0.888);
-
-}
-.card h2{
-    margin-bottom:12px;
-
-}
-footer{
-    text-align: center;
-    padding:25px;
-    background: #3e7251;
-
-}
-
-@keyframes bounce{
-    0%,100%{
-        transform: translateY(0);
-
-    }
-    50%{
-        transform:translateY(-20px);
-
-    }
-}
-
-@keyframes fadeDown{
-    from{
-        opacity: 0;
-        transform:translateY(-40px);
-        }
-    to{
-        opacity: 1;
-        transform: translateY(0)
-    }
-}
-</style>
-</head>
-
-<body>
-
+  <body>
     <header>
-        <div class="ball">⚽</div>
-        <h1>FOOTBALL WORLD</h1>
-        <p>Feel the passion. Live the game. Suppprt your favorite team.</p>
-        <a href="#" class="btn">EXPLORE MORE!</a>
-        
+      <div class="ball">⚽</div>
+      <h1>FOOTBALL WORLD</h1>
+      <p>Feel the passion. Live the game. Suppprt your favorite team.</p>
+      <a href="#" class="btn">EXPLORE MORE!</a>
     </header>
 
     <section>
-
-        <div class="cards">
-            
-         <a href="matches.html" class="card-link">
-       <div class="card">
-        
+      <div class="cards">
+        <a href="matches.html" class="card-link">
+          <div class="card">
             <h2>🏆 LATEST MATCHES</h2>
-            <p>Stay updated with exciting football matches from leagues around the world.</p>
-        </div>
+            <p>
+              Stay updated with exciting football matches from leagues around
+              the world.
+            </p>
+            <a href="matches.html" class="card-link"></a>
+          </div>
         </a>
 
-               </div>
-
-               <div class="cards">
-        
-            <h2>
-                <a href="players.html" class="card-link">
-                    <div class="card">
+        <a href="players.html" class="card-link">
+            <div class="card">
                 <h2>⭐Top Players</h2>
-                
-            <p>Discover the best footballers in the world and their incredible achievements.</p>
-                </a>
-            </h2>
-            
-        </div>
-            <div class="cards">
-        
-            <h2>
-                <a href="scores.html" class="card-link">
-                    <div class="card">
+                <p>
+                    Discover the best footballers in the world and their incredible
+                    achievements.
+                </p>
+            </div>
+        </a>
+
+        <a href="scores.html" class="card-link">
+            <div class="card">
                 <h2>🔥LIVE SCORES</h2>
-                </a>
-            
-            <p>Follow your favourite clubs with real-time score updates and matche highlights.</p>
-</h2>
-        </div>
+                <p>
+                    Follow your favourite clubs with real-time score updates and matche
+                    highlights.
+                </p>
+            </div>
+        </a>
+      </div>
+    </section>
 
-</div>
-</section>
-
-<footer>
-    <p>© 2026 Football world | MADE WITH ❤️ for Football Fans</p>
-    
-</footer>
-
-</body>
+    <footer>
+      <p>© 2026 Football world | MADE WITH ❤️ for Football Fans</p>
+    </footer>
+  </body>
 </html>
-       
