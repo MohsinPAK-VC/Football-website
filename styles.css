@@ -128,8 +128,36 @@ a {
  }
 
  .football{
-    position
+    position:fixed;
+    font-size: 45px;
+    opacity: .15;
+    z-index: -1;
+    animation:float 18s linear infinite;
  }
+
+ .football1{
+    left: 10%;
+ }
+    .football2{
+        left: 50%;
+        animation-delay: 6s;
+    }
+
+    .football3{
+        left: 80%;
+        animation-delay: 12s;
+    }
+
+@keyframes float{
+    from{
+        top: 110%;
+        transform: rotate(0deg);
+    }
+    to{
+        top: -20%;
+        transform: rotate(360deg);
+    }
+}
 
 @keyframes bounce{
     0%,100%{
