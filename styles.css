@@ -87,6 +87,12 @@ section{
     margin-bottom:12px;
     font-size: 21px;
 
+    .match-card{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        margin-top:15px;
+    }
 }
 footer{
     text-align: center;
