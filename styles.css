@@ -19,6 +19,9 @@ body{
         #14532d,
         #3b82f6
     ) ;
+    background-size: 400% 400%;
+
+    animation: gradientBG 15s ease infinite;
 }
 
 header{
@@ -124,6 +127,9 @@ a {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
 
+ .football{
+    position
+ }
 
 @keyframes bounce{
     0%,100%{
@@ -144,5 +150,17 @@ a {
     to{
         opacity: 1;
         transform: translateY(0)
+    }
+}
+
+@keyframes gradientBG{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
     }
 }
