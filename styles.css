@@ -7,9 +7,18 @@
 
 body{
    
-    background:linear-gradient(to bottom,#397499,#724e9f);
-    color:rgb(27, 191, 186);
+    color:#fff;
     overflow-x:hidden;
+
+    background:linear-gradient(
+        -45deg,
+        #1e3c72,
+        #2a5298,
+        #0f2027,
+        #0b8457,
+        #14532d,
+        #3b82f6
+    ) ;
 }
 
 header{
@@ -99,21 +108,22 @@ a {
     text-decoration: none;
     color: rgb(45, 203, 239);
 }
+ .match-card{
+    background:#155875;
+    border: 1px solid #071c54;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    max-width: 700px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
 
+ .match-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background:linear-gradient(to bottom,#bf1a54,#063841);
-        }
-        .match-card {
-            background-color: #155857;
-            border: 1px solid #071c54;
-            border-radius: 5px;
-            padding: 5px;
-        
-        }
 
 @keyframes bounce{
     0%,100%{
