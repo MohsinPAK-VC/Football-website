@@ -183,6 +183,36 @@ body{
         color: #ffd700;
     }
 
+    .player-card{
+        background: rgba(21, 88, 117, 0.75);
+        backdrop-filter: blur(10px);
+        border: 1px solid #071c54;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 25px auto;
+        width: 90%;
+        max-width: 600px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .player-card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .player-card img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    .player-card h2{
+        margin-bottom: 12px;
+        font-size: 24px;
+        color:#00dcd1a3;;
+    }
+
 
 @keyframes float{
     from{
