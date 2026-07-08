@@ -150,6 +150,30 @@ a {
         animation-delay: 12s;
     }
 
+    .teams{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teams img{
+        width: 55px;
+        height: 40px;
+        object-fit: contain;
+    }
+    .score{
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffd700;
+    }
+
+
 @keyframes float{
     from{
         top: 110%;
