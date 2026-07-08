@@ -87,13 +87,14 @@ section{
     backdrop-filter:blur(6px);
     border-radius: 18px;
     padding:25px;
-    transition:.4s;
+    transition:.4s ease;
 
 
 }
 .card:hover{
-    transform:translateY(-10px);
+    transform:translateY(-10px) scale(1.05);
     background: rgba(48, 78, 209, 0.888);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 
 }
 .card h2{
@@ -170,10 +171,11 @@ body{
         margin: 0;
         font-size: 28px;
     }
-    .teams img{
+    .flag{
         width: 50px;
         height: 35px;
         object-fit: contain;
+        border-radius: 5px;
     }
     .score{
         font-size: 30px;
