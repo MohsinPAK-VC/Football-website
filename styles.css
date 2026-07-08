@@ -159,12 +159,17 @@ a {
     }
     .team{
         display: flex;
-        flex-direction: column;
         align-items: center;
+        gap: 10px;
+    }
+
+    .team h2{
+        margin: 0;
+        font-size: 28px;
     }
     .teams img{
-        width: 55px;
-        height: 40px;
+        width: 50px;
+        height: 35px;
         object-fit: contain;
     }
     .score{
