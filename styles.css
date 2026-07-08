@@ -236,9 +236,8 @@ body{
     .player-card img{
         width: 100px;
         height: 100px;
-        object-fit: cover;
         border-radius: 50%;
-        margin-bottom: 15px;
+        
     }
 
     .player-card h2{
@@ -257,6 +256,12 @@ body{
           background-size: 400% 400%;
 
     animation: gradientBG 15s ease infinite;
+ }
+ .player-image{
+    width: 120px;
+    height: 120Px;
+    object-fit: cover;
+    border-radius: 50%;
  }
  .player-name{
     display: flex;
@@ -290,7 +295,7 @@ body{
     margin: 8px 0;
     font-size: 20px;
     color:
-     #a5c200;
+     #00acbcec;
 
  }
 
