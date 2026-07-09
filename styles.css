@@ -24,17 +24,15 @@
 
 body{
    
-    color:#fff;
+    color:#08a195;
     overflow-x:hidden;
 
     background:linear-gradient(
         -45deg,
-        #1e3c72,
-        #2a5298,
-        #0f2027,
-        #0b8457,
-        #14532d,
-        #3b82f6
+         #0F172A,
+    #1E3A8A,
+    #14532D,
+    #065F46
     ) ;
     background-size: 400% 400%;
 
@@ -100,7 +98,7 @@ section{
 
 .card{
     width:280px;
-    background:rgb(36, 143, 145);
+    background: #166534;
     backdrop-filter:blur(6px);
     border-radius: 18px;
     padding:25px;
@@ -110,7 +108,7 @@ section{
 }
 .card:hover{
     transform:translateY(-10px) scale(1.05);
-    background: rgba(48, 78, 209, 0.888);
+    background: #166534;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 
 }
@@ -122,7 +120,7 @@ section{
 footer{
     text-align: center;
     padding:25px;
-    background: #3e7251;
+    background:#0F172A;
 
 }
 
@@ -134,12 +132,12 @@ body{
     text-align: center;
 }
  .match-card{
-    background:linear-gradient(
-        #00ff99,
-        #14532d,
-        #1e3c72,
-        #2d1730
-    );
+     background:linear-gradient(
+    135deg,
+    #14532D,
+    #166534,
+    #1e3c72
+);
     backdrop-filter: blur(10px);
     border: 1px solid #071c54;
     border-radius: 15px;
@@ -193,12 +191,7 @@ body{
         margin: 0;
         font-size: 28px;
     }
-    .flag{
-        width: 50px;
-        height: 35px;
-        object-fit: contain;
-        border-radius: 5px;
-    }
+     
     .score{
         font-size: 30px;
         font-weight: bold;
@@ -206,12 +199,16 @@ body{
     }
 
     .player-card{
-        background: linear-gradient(
-            135deg,
-            rgba(36, 143, 145, 0.75),
-            rgba(123, 209, 48, 0.888),
-            rgba(21, 88, 117, 0.75)
-        );
+       background:linear-gradient(
+135deg,
+#14532D,
+#166534,
+#15803D,
+#061e5f,
+#1d536a,
+#1ca99d
+);
+        
         backdrop-filter: blur(10px);
         border: 1px solid #071c54;
         border-radius: 15px;
@@ -246,27 +243,26 @@ body{
     }
 
     .player-card h2{
+        color: #ffffff;
         margin-bottom: 12px;
         font-size: 24px;
-        background:linear-gradient(
-            90deg,
-            #ff0000,
-            #ff7f00,
-            #180c36,
-            #0f1e0f,
-            #0000ff,
-            #4b0082,
-            #391951
+        background: linear-gradient(
+            #1b9b93,
+            #71a41a,
+            #1d536a,
+            #1e3c72
+     
+       
         );
-          background-size: 400% 400%;
-
-    animation: gradientBG 15s ease infinite;
+        animation: gradientBG 1.5s ease infinite;
  }
  .player-image{
     width: 120px;
     height: 120Px;
     object-fit: cover;
     border-radius: 50%;
+    border: 4px solid #facc15;
+    box-shadow: 0 0 20px rgba(250,204,21,.5);
  }
  .player-name{
     display: flex;
@@ -301,8 +297,7 @@ body{
  .player-info p{
     margin: 8px 0;
     font-size: 20px;
-    color:
-     #00acbcec;
+    color:#00183e;
 
  }
 
