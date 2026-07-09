@@ -134,7 +134,12 @@ body{
     text-align: center;
 }
  .match-card{
-    background:rgba(21, 88, 117, 0.75);
+    background:linear-gradient(
+        #00ff99,
+        #14532d,
+        #1e3c72,
+        #2d1730
+    );
     backdrop-filter: blur(10px);
     border: 1px solid #071c54;
     border-radius: 15px;
@@ -218,11 +223,12 @@ body{
     }
 .player-card p{
     font-size: 20px;
+    color: #000000ec;
     animation: gradientBG 15s ease infinite;
     background:linear-gradient(
         -45deg,
         #1e3c72,
-        #2a5298,
+        #982a2a,
         #1d536a,
         #14532d,
         #1b9b93
@@ -247,7 +253,7 @@ body{
             #ff0000,
             #ff7f00,
             #180c36,
-            #00ff00,
+            #0f1e0f,
             #0000ff,
             #4b0082,
             #391951
@@ -286,6 +292,8 @@ body{
     border-radius: 20px;
     font-weight: bold;
  }
+
+  
 
  .player-info{
     margin-top: 20px;
