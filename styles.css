@@ -47,18 +47,45 @@ header{
 }
 
 header h1{
-    font-size:55px;
-    animation:fadeDown 1.2s ease;
+    font-size:60px;
+    font-weight:900;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    color:#00E676;
 
+    text-shadow:
+        0 0 12px rgba(0,230,118,.8),
+        0 0 30px rgba(0,230,118,.4);
+
+    margin-bottom:20px;
 }
+header h2{
+    font-size:34px;
+    color:#FFD700;
+     text-shadow:  0 0 12px rgba(230, 203, 0, 0.8),
+        0 0 30px rgba(0, 107, 230, 0.4);
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
 
 header p{
-    margin-top:15px;
+
+    max-width:850px;
+
+    margin:20px auto;
+
     font-size:20px;
-    color:#7bff00;
-    animation:fadeUp 1.5s ease;
+
+    color:#4a1d77;
+    text-shadow:
+        0 0 12px rgba(59, 4, 135, 0.8),
+        0 0 30px rgba(44, 171, 185, 0.897);
+
+    line-height:1.7;
 
 }
+
 
 .btn{
     display:inline-block;
@@ -88,6 +115,24 @@ header p{
 section{
     padding: 60px 20px;
 
+}
+.match-head{
+    color: rgb(29, 29, 127);
+    text-shadow:
+        0 0 10px rgba(139, 17, 191, 0.951),
+        0 0 25px rgba(3, 112, 76, 0.922);
+}
+.match-head p{
+    font-size: 35px;
+}
+.players-head{
+    color: rgb(79, 184, 53);
+    text-shadow:
+        0 0 10px rgba(12, 34, 101, 0.951),
+        0 0 25px rgba(3, 47, 112, 0.922);
+}
+.player-head h1{
+    font-size: 40px;
 }
 
 .cards{
@@ -255,6 +300,9 @@ a {
         );
         animation: gradientBG 1.5s ease infinite;
  }
+ .player-rank{
+    font-size: 40px;
+ }
 .player-image{
     width:120px;
     height:120px;
@@ -313,7 +361,7 @@ footer{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:#0F172A;
+background:#0F172A;
 }
 .footer-line{
     display: none;
@@ -372,8 +420,6 @@ footer{
     justify-content:center;
 
     align-items:center;
-
-    background:#0F172A;
 
     border-top:1px solid rgba(255,255,255,.08);
 
@@ -510,20 +556,32 @@ footer{
 /* ===========================
         Career Page
 =========================== */
-
+ 
 .career-header{
 
     text-align:center;
 
-    padding:60px 20px;
+    padding:40px 20px 10px;
 
 }
 
 .career-header h1{
 
-    font-size:55px;
+    font-size:65px;
 
-    color:#FFD700;
+    font-weight:900;
+
+    color:#26dca0;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    text-shadow:
+        0 0 10px rgba(0, 205, 55, 0.951),
+        0 0 25px rgba(112, 3, 3, 0.922);
+
+    margin-bottom:10px;
 
 }
 
@@ -531,21 +589,40 @@ footer{
 
     font-size:32px;
 
-    margin-top:10px;
+    color:#036568;
 
-    color:white;
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    text-shadow:
+        0 0 10px rgba(255, 136, 0, 0.7),
+        0 0 25px rgba(255,215,0,.4);
+
+    letter-spacing:2px;
+
+    margin-bottom:20px;
 
 }
 
 .career-header p{
 
-    max-width:800px;
+    color:#f48506;
 
-    margin:20px auto;
+    text-transform:uppercase;
 
-    font-size:18px;
+    letter-spacing:4px;
 
-    color:#d8d8d8;
+    text-shadow:
+        0 0 10px rgba(180, 124, 4, 0.808),
+        0 0 25px rgba(223, 33, 12, 0.845);
+    font-size:20px;
+
+    max-width:850px;
+
+    margin:auto;
+
+    line-height:1.8;
 
 }
 .career-grid{
@@ -556,7 +633,11 @@ footer{
 
     gap:45px;
 
-    padding:40px;
+    padding-top:0;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+
 
     justify-items:center;
 
@@ -640,4 +721,8 @@ footer{
 
     transform:scale(1.05);
 
+}
+.last-card{
+    grid-column: 1 /-1;
+    justify-self: center;
 }
