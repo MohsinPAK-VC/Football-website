@@ -300,6 +300,34 @@ body{
     color:#00183e;
 
  }
+ .bottom-dock{
+    position: fixed;
+    bottom: 20px;
+    left:50%;
+    transform: translateX(-50%);
+
+    display:flex;
+    gap:20px;
+
+    background: rgba(15,23,42,.85);
+    backdrop-filter: blur(15px);
+
+    padding: 15px 25px;
+
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+ }
+ .bottom-dock a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.3s;
+ }
+ .bottom-dock a:hover{
+    color: #ffd700;
+    transform:translateY(-5px);
+ }
 
 @keyframes float{
     from{
