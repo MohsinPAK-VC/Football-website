@@ -505,3 +505,139 @@ footer{
         background-position: 0% 50%;
     }
 }
+
+
+/* ===========================
+        Career Page
+=========================== */
+
+.career-header{
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+.career-header h1{
+
+    font-size:55px;
+
+    color:#FFD700;
+
+}
+
+.career-header h2{
+
+    font-size:32px;
+
+    margin-top:10px;
+
+    color:white;
+
+}
+
+.career-header p{
+
+    max-width:800px;
+
+    margin:20px auto;
+
+    font-size:18px;
+
+    color:#d8d8d8;
+
+}
+.career-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:45px;
+
+    padding:40px;
+
+    justify-items:center;
+
+}
+.career-card{
+
+    width:300px;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:white;
+
+    transition:.4s;
+
+}
+.career-card img{
+
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.5);
+
+    transition:.4s;
+
+}
+.career-card:hover{
+
+    transform:translateY(-15px);
+
+}
+.career-card:hover img{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 35px gold;
+
+}
+.career-card h3{
+
+    margin-top:18px;
+
+    font-size:25px;
+
+    color:#FFD700;
+
+}
+.career-card p{
+
+    color:white;
+
+    margin:8px 0;
+
+}
+.career-card button{
+
+    margin-top:15px;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#FFD700;
+
+    color:#111;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+.career-card button:hover{
+
+    background:white;
+
+    transform:scale(1.05);
+
+}
