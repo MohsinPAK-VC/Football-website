@@ -1,16 +1,53 @@
-# Football-website
-3D model, amimated football websites and amazing website.
+ # Football Website
 
-# About This Project
+## About Me
 
-Assalam o Alaikum,! I'm Mohsin, and this is one of my first web development projects. When I started, I was a complete beginner and didn't know much about HTML or CSS. I joined Hack Club's Hackando program because I wanted to learn by building a real project instead of only watching tutorials.
+Assalam o Alaikum! Mohsin here. This is my first solo project, and I am a complete beginner in web development.
 
-While working on this website, I used AI as a learning partner. Whenever I got stuck or didn't understand something, I asked AI to explain it, help me fix bugs, or give me ideas. I didn't just copy everything—I spent time understanding the code, changing it, testing it, and sometimes fixing the same problem many times until it finally worked.
+I joined Hack Club and Macondo because I wanted to learn by building a real project instead of going into tutorial hell.
 
-I spent a lot of hours building this project, and all that effort helped me appear on the Hack Club leaderboard multiple times. During some coding sessions, I even reached top positions in Pakistan, which motivated me to keep learning and improve even more.
+---
 
-Through this project, I learned HTML, CSS, responsive design, GitHub, and how to deploy a website using Vercel. There are probably still some mistakes, but I'm really proud of how far I've come. This project shows my learning journey, and it's only the beginning. I hope to keep improving and build even bigger and better projects in the future.
+## Development Journey
 
-I hope this project will be accepted and will give me some credits so i also be motivated.
-Also i am giving the credits for i learnt many things that will help in future for sure, this organization(Hackclub, and macando), AI(Chatgpt) and MY ONE TEACHER SIR SAKHI AKRAM- in THIS COMPETION AS somebodyyouknow.
-THANKS TOO ALL THE PEOPLE AND THE SOURCES!
+During the development of the football website, I got stuck in many places. I used ChatGPT as a mentor and partner. It explained concepts and the why behind a lot of things.
+
+I utilised AI to build this website, which I am actually proud of because I built it myself.
+
+---
+
+## Time Spent
+
+I spent 12+ hours on this project. I actually fell in love with gradients and ofc the dock. I liked building the cards too. Everything was extremely cool.
+
+I would say my greatest motivation was the Hackatime leaderboard, where I logged my hours and loved competing with all of the other fellows there. I got first position in Pakistan for 2 days straight, big achievement imo.
+
+---
+
+## What I Learned
+
+This project taught me HTML, CSS, responsive design and GitHub. I learnt how to deploy a website on Vercel too.
+
+---
+
+## Looking Forward
+
+This was the first solo website I built, and I know there are many mistakes on it. I will try my best to complete and fix the errors later.
+
+This project is a checkpoint in my journey, and I hope to keep improving and build greater projects in the future.
+
+---
+
+## AI Notice
+
+I would like everyone to know that all images on the following websites are AI-generated.
+
+---
+
+## Credits
+
+I would like to give credit to:
+
+- **Macondo** - for motivating me and giving me a platform
+- **ChatGPT** - for being a good mentor and copilot
+- Thanks to everyone who inspired me and all the sources I learnt from.
