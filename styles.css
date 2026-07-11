@@ -1,3 +1,8 @@
+.page-scale {
+    transform: scale(0.9);
+    transform-origin: top center;
+    width: 111.11%;
+}
 .logo{
     width: 120px;
     height: 120px;
@@ -864,9 +869,11 @@ background:#0F172A;
 
 .journey-section p{
 
-    color:#F5F5F5;
+    color:#4e9c09;
+     text-shadow: 0 0 50px gold,
+        0 35px 70px rgba(0,0,0,.55);
 
-    font-size:19px;
+    font-size:27px;
 
     line-height:1.9;
 
