@@ -48,6 +48,6 @@ I would like everyone to know that all images on the following websites are AI-g
 
 I would like to give credit to:
 
-- **Macondo** - for motivating me and giving me a platform
-- **ChatGPT** - for being a good mentor and copilot
+- *Macondo* - for motivating me and giving me a platform
+- *ChatGPT* - for being a good mentor and copilot
 - Thanks to everyone who inspired me and all the sources I learnt from.
