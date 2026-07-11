@@ -901,6 +901,9 @@ background:#0F172A;
 
     line-height:1.8;
 }
+body{
+    zoom: 76%;
+}
 
 /* QUOTE */
 
