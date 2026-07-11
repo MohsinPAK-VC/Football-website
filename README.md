@@ -5,7 +5,7 @@
 
 Assalam o Alaikum,! I'm Mohsin, and this is one of my first web development projects. When I started, I was a complete beginner and didn't know much about HTML or CSS. I joined Hack Club's Hackando program because I wanted to learn by building a real project instead of only watching tutorials.
 
-While working on this website, I used AI as a learning partner. Whenever I got stuck or didn't understand something, I asked AI to explain it, help me fix bugs, or give me ideas. I didn't just copy everything—I spent time understanding the code, changing it, testing it, and sometimes fixing the same problem many times until it finally worked.
+While working on this website, I used AI as a learning partner. Whenever I got stuck or didn't understand something, I asked AI to explain it, help me fix bugs, or give me ideas. I didn't just copy everything, I spent time understanding the code, changing it, testing it, and sometimes fixing the same problem many times until it finally worked.
 
 I spent a lot of hours building this project, and all that effort helped me appear on the Hack Club leaderboard multiple times. During some coding sessions, I even reached top positions in Pakistan, which motivated me to keep learning and improve even more.
 
